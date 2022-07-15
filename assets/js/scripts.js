@@ -1,22 +1,5 @@
 
-/*
-var currentNumberWrapper = document.getElementById('currentNumber');
-var currentNumber = 0;
-
-function decrement(){
-    
-    currentNumber = currentNumber -1; 
-    currentNumberWrapper.innerHTML = currentNumber;
-}
-
-function increment(){
-    currentNumber = currentNumber +1; 
-    currentNumberWrapper.innerHTML = currentNumber;
-}
-*/
-
-
-var currentNumberWrapper = document.getElementById('currentNumber');
+//var currentNumberWrapper = document.getElementById('currentNumber');
 const elementSub = document.getElementById("subtrair");
 const elementSoma = document.getElementById("adicionar");
 var currentNumber = 0;
@@ -44,8 +27,7 @@ function somar() {
     if (currentNumber > 0) 
     document.body.style.background = 'aqua';
     else 
-    document.body.style.background = 'red';
-    
+    document.body.style.background = 'orange';
   }
 
   
